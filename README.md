@@ -1,6 +1,7 @@
 # country-of-origin-project
 # AI기술을 활용한 GIS 기반의 농산물 원산지 표시 단속 추천 서비스
 
+# 머신러닝 코드
 ## Monthly_Machine_Learning.ipynb
 <목차>
 
@@ -35,6 +36,7 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
     (https://lsjsj92.tistory.com/546 참고)
 
 
+# 딥러닝 코드
 ## Deep_Learning_input_data.ipynb
 <목차>
 
@@ -57,10 +59,10 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
   - seaborn 0.11.0
   - sklearn 0.23.2
 
-# 딥러닝 코드
 ## CNN
-- CNN1D_original.py - 분류, 회귀
+### CNN1D_original.py - 분류, 회귀
 <목차>
+
 1. 라이브러리 임포트
 2. 데이터 로드
 3. 전체데이터를 트레이닝셋, 테스트셋으로 분리
