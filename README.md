@@ -86,7 +86,14 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 6. 모델 설정
 7. 모델 피팅
 
+#### wandb란?
+- Weights & Biases 라는 Tool(웹 플랫폼)
+- (주의) wandb에 로그인하고 이 python 파일을 실행시킨다고 해서 필자가 과거에 모델을 돌렸던 DB로 접속하는 게 아님.
 
-  # wandb 설명
-  - (주의) wandb에 로그인하고 이 python 파일을 실행시킨다고 해서 필자가 과거에 모델을 돌렸던 DB로 접속하는 게 아님.
-  - wandb란? Weights & Biases 라는 웹 플랫폼
+  * 학습에 사용되는 하이퍼 파라미터들을 저장
+  * 학습 과정을 검색하고, 비교하고, 시각화해주는 기능
+  - Analyze system usage metrics alongside runs
+  - Collaborate with team members
+  - Replicate historic results
+  - Run parameter sweeps
+  - Keep records of experiments available forever
