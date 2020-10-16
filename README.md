@@ -74,3 +74,19 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 <사용된 데이터 설명>
 - Deep_input_X_scaled_36.npy : Deep_Learning_input_data.ipynb에서 만든, 딥러닝 모델에 사용된 3차원 36개 변수 데이터 (shape : (16235, 108, 36))
 - Deep_input_Y_MSE_scaled.npy : Deep_Learning_input_data.ipynb에서 만든, 딥러닝 모델에 사용된 스케일링된 라벨 데이터 (shape : (16235, 1))
+
+### CNN1D_cont_wandb.py - 회귀(continuous variable), wandb용 
+<목차>
+
+1. 라이브러리 임포트
+2. wandb 설정
+3. 데이터 로드
+4. 전체데이터를 트레이닝셋, 테스트셋으로 분리
+5. 모델 빌딩
+6. 모델 설정
+7. 모델 피팅
+
+
+  # wandb 설명
+  - (주의) wandb에 로그인하고 이 python 파일을 실행시킨다고 해서 필자가 과거에 모델을 돌렸던 DB로 접속하는 게 아님.
+  - wandb란? Weights & Biases 라는 웹 플랫폼
