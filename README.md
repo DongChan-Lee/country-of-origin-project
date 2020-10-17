@@ -71,6 +71,8 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 6. 모델 피팅
 7. 모델 평가
 
+- 여기서 분류는 해당 지역(그리드)별로 적발유무(0, 1)를 예측하는 것이고, 회귀는 해당 지역(그리드)별로 적발건수(continuous variable)를 예측하는 것입니다.
+
 <사용된 데이터 설명>
 - Deep_input_X_scaled_36.npy : Deep_Learning_input_data.ipynb에서 만든, 딥러닝 모델에 사용된 3차원 36개 변수 데이터 (shape : (16235, 108, 36))
 - Deep_input_Y_MSE_scaled.npy : Deep_Learning_input_data.ipynb에서 만든, 딥러닝 모델에 사용된 스케일링된 라벨 데이터 (shape : (16235, 1))
