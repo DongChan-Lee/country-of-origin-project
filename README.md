@@ -121,4 +121,4 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 
 ## LSTM
 ### LSTM_original.py - 분류, 회귀
-- LSTM은 hidden node 개수를 조금만 늘려도 파라미터 수가 엄청나게 늘어나고, 저희가 사용한 변수가 36개나 되기 때문에 LSTM layer의 개수와 노드 개수를 적절히 조정하여 LSTM 모델을 빌딩하였습니다.
+- LSTM은 모델 안에 Forget gate, Input Gate, Update cell state, Output gate 등 메모리를 좀 더 오래 기억하기 위한 장치인 Cell state와 Gates 등이 있기 때문에 hidden node의 개수를 조금만 늘려도 파라미터 수가 엄청나게 늘어납니다. 더 나아가, 데이터의 크기에 비해 파라미터 수가 월등히 많을 경우, Overfitting의 문제가 발생할 수 있습니다. 또한, 저희가 사용한 변수 또한 36개나 되기 때문에 노드를 하나 늘릴 때마다 늘어나는 파라미터 수 등을 고려하여 LSTM layer의 개수와 노드 개수를 적절히 조정하여 LSTM 모델을 빌딩하였습니다. 
