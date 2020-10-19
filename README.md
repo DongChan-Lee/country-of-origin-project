@@ -147,3 +147,16 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 
 <사용된 데이터 설명>
 - CNN1D_original.py 에서 사용된 데이터 파일과 동일.
+
+### LSTM_cont_wandb.py - 회귀(continuous variable), wandb용 
+<목차>
+
+1. 라이브러리 임포트
+2. wandb 설정
+3. 데이터 로드
+4. 전체데이터를 트레이닝셋, 테스트셋으로 분리
+5. 모델 빌딩
+6. 모델 설정
+7. 모델 피팅
+
+### LSTM_binary_wandb.py - 분류, wandb용
