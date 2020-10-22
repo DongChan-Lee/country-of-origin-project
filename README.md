@@ -172,7 +172,7 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 
 ## CNN-LSTM
 ### CNN-LSTM_original.py - 분류, 회귀
-- 저희가 프로젝트를 진행하며 결과값을 도출하는 데에 직접적으로 사용한 CNN + LSTM 모델입니다. Input layer인 CNN Masking layer를 시작으로 CNN layer와 LSTM layer를 거친 후, Output layer를 설정하였습니다.
+- 저희가 프로젝트를 진행하며 결과값을 도출하는 데에 최종적으로 선택하여 사용한 CNN + LSTM 모델입니다. Input layer인 CNN Masking layer를 시작으로 CNN layer와 LSTM layer를 거친 후, Output layer를 설정하였습니다.
 
  <목차>
  
@@ -190,4 +190,15 @@ PPT와 실제 모델링에 사용된 예측값, 그 값을 산출한 머신러�
 - CNN1D_original.py 에서 사용된 데이터 파일과 동일.
 
 ### CNN-LSTM_cont_wandb.py - 회귀(continuous variable), wandb용
+<목차>
+
+1. 라이브러리 임포트
+2. wandb 설정
+3. 데이터 로드
+4. 전체데이터를 트레이닝셋, 테스트셋으로 분리
+5. 모델 빌딩
+6. 모델 설정
+7. 모델 피팅
+
+### CNN-LSTM_binary_wandb.py - 분류, wandb용
 - 
